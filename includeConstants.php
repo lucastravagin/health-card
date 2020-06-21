@@ -14,16 +14,17 @@
 	spl_autoload_register($autoload);
 
 
-	define('INCLUDE_PATH','http://localhost/devweb/');
+	//define('INCLUDE_PATH','http://localhost/devweb/');
+	define('INCLUDE_PATH','http://www.cartaofacaobem.com.br/');
 	define('INCLUDE_PATH_PAINEL',INCLUDE_PATH.'painel/');
 
 	define('BASE_DIR_PAINEL',__DIR__.'/painel');
-	//Conectar com banco de dados!
-	define('HOST','localhost');
-	define('USER','root');
-	define('PASSWORD','');
-	define('DATABASE','sistema_dev_web');
+	//define('HOST','localhost');
+	define('HOST','67.205.146.43');
+	define('USER','health-user');
+	define('PASSWORD','z8Iz4oqy');
+	define('DATABASE','billing');
 
 	//Constantes para o painel de controle
-	define('NOME_EMPRESA','Danki Code');
+	define('NOME_EMPRESA','Spacenapse');
 ?>
